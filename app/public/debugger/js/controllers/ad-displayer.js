@@ -112,16 +112,16 @@
             window.googletag.cmd = window.googletag.cmd || [];
 
             window.googletag.cmd.push(function () {
-                window.googletag.defineSlot('/50507703/pktf/sf-price', [[1, 1]], 'div-desktop-a')
+                window.googletag.defineSlot('/50507703/pktf/sf-price', [[300, 250],[1, 1]], 'div-desktop-a')
                     .addService(window.googletag.pubads());
 
-                window.googletag.defineSlot('/50507703/pktf/ff-price', [[1, 1]], 'div-desktop-b')
+                window.googletag.defineSlot('/50507703/pktf/ff-price', [[300, 250],[1, 1]], 'div-desktop-b')
                     .addService(window.googletag.pubads());
 
-                window.googletag.defineSlot('/50507703/pktf/sf-price', [[1, 1]], 'div-mobile-a')
+                window.googletag.defineSlot('/50507703/pktf/sf-price', [[300, 250],[1, 1]], 'div-mobile-a')
                     .addService(window.googletag.pubads());
 
-                window.googletag.defineSlot('/50507703/pktf/ff-price', [[1, 1]], 'div-mobile-b')
+                window.googletag.defineSlot('/50507703/pktf/ff-price', [[300, 250],[1, 1]], 'div-mobile-b')
                     .addService(window.googletag.pubads());
 
                 if (configs.singleRequest === 'enable') {
